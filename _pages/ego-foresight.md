@@ -2,8 +2,8 @@
 layout: distill
 permalink: /ego-foresight/
 nav: false
-title: "Ego-Foresight: Self-supervised Learning of Agent-Aware Representations for Improved RL"
-description: Ego-Foresight publication distill page
+title: Ego-Foresight
+description: Self-supervised Learning of Agent-Aware Representations for Improved RL
 tags: distill formatting
 giscus_comments: true
 date: 2026-02-18
@@ -27,7 +27,7 @@ authors:
   - name: Atabak Dehban
     affiliations:
       name: Técnico Lisboa
-  - name: Yiannis Demiriris
+  - name: Yiannis Demiris
     affiliations:
       name: Imperial College London
   - name: José Santos-Victor
