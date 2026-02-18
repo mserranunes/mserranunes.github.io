@@ -2,8 +2,8 @@
 layout: distill
 permalink: /ego-foresight/
 nav: false
-title: Ego-Foresight: Self-supervised Learning of Agent-Aware Representations for Improved RL
-description: an example of a distill-style blog post and main elements
+title: "Ego-Foresight: Self-supervised Learning of Agent-Aware Representations for Improved RL"
+description: Ego-Foresight publication distill page
 tags: distill formatting
 giscus_comments: true
 date: 2026-02-18
