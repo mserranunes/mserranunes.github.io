@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>PhD Student @ Técnico Lisboa</p>
-    <p><a href=manuelserranunes@proton.me>manuelserranunes@proton.me</a></p>
+    <p><a href=mailto:manuelserranunes@proton.me>manuelserranunes@proton.me</a></p>
     <p><a href=https://github.com/mserranunes>github.com/mserranunes</a></p>
     <p><a href=https://www.linkedin.com/in/manuel-serra-nunes/>linkedin.com/manuel-serra-nunes</a></p>
 
