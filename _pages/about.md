@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:
 
 profile:
   align: right
@@ -10,9 +10,9 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>PhD Student @ Técnico Lisboa</p>
-    <p>[manuelserranunes@proton.me](manuelserranunes@proton.me)</p>
-    <p>[github.com/mserranunes](https://github.com/mserranunes)</p>
-    <p>[linkedin.com/manuel-serra-nunes](https://www.linkedin.com/in/manuel-serra-nunes/)</p>
+    <p><a href=manuelserranunes@proton.me>manuelserranunes@proton.me</a></p>
+    <p><a href=https://github.com/mserranunes>github.com/mserranunes</a></p>
+    <p><a href=https://www.linkedin.com/in/manuel-serra-nunes/>linkedin.com/manuel-serra-nunes</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
