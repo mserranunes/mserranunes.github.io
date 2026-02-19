@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>PhD Student @ Técnico Lisboa</p>
     <p><a href=mailto:manuelserranunes@proton.me>manuelserranunes@proton.me</a></p>
-    <p><a href=https://github.com/mserranunes>github.com/mserranunes</a></p>
+    <p><a href=https://github.com/mserranunes><i class="fab fa-github"></i>github.com/mserranunes</a></p>
     <p><a href=https://www.linkedin.com/in/manuel-serra-nunes/>linkedin.com/manuel-serra-nunes</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
