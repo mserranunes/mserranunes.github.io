@@ -10,9 +10,9 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>PhD Student @ Técnico Lisboa</p>
-    <p><a href=mailto:manuelserranunes@proton.me>manuelserranunes@proton.me</a></p>
-    <p><a href=https://github.com/mserranunes><i class="fab fa-github"></i>github.com/mserranunes</a></p>
-    <p><a href=https://www.linkedin.com/in/manuel-serra-nunes/>linkedin.com/manuel-serra-nunes</a></p>
+    <p><a href=mailto:manuelserranunes@proton.me><i class="fa-solid fa-envelope"></i> manuelserranunes@proton.me</a></p>
+    <p><a href=https://github.com/mserranunes><i class="fab fa-github"></i>/mserranunes</a></p>
+    <p><a href=https://www.linkedin.com/in/manuel-serra-nunes/><i class="fa-brands fa-linkedin"></i>/manuel-serra-nunes</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
