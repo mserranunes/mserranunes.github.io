@@ -37,6 +37,11 @@ authors:
 bibliography: 2018-12-22-distill.bib
 ---
 
+<div style="display: flex; justify-content: center; gap: 1rem; margin: 1.5rem 0;">
+  <a href="https://openreview.net/pdf?id=6itufi98Q3" target="_blank" aria-label="View paper on OpenReview" style="display: inline-block; padding: 0.5rem 1.5rem; border: 2px solid var(--global-text-color); border-radius: 5px; text-decoration: none; color: var(--global-text-color); font-weight: bold;">Paper</a>
+  <span style="display: inline-block; padding: 0.5rem 1.5rem; border: 2px solid var(--global-text-color-light); border-radius: 5px; color: var(--global-text-color-light); font-weight: bold;">Code (coming soon)</span>
+</div>
+
 ## Abstract
 
 Despite the significant advances in Deep Reinforcement Learning (RL) observed
