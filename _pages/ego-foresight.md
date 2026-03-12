@@ -5,7 +5,7 @@ nav: false
 title: Ego-Foresight
 description: Self-supervised Learning of Agent-Aware Representations for Improved RL
 tags: distill formatting
-giscus_comments: true
+giscus_comments: false
 date: 2026-02-18
 featured: true
 mermaid:
