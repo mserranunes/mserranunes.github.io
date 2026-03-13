@@ -37,6 +37,11 @@ authors:
 bibliography: 2018-12-22-distill.bib
 ---
 
+<div style="display: flex; justify-content: center; gap: 16px; margin: 24px 0;">
+  <a href="https://openreview.net/pdf?id=6itufi98Q3" target="_blank" rel="noopener noreferrer" aria-label="Read the Ego-Foresight paper on OpenReview" style="display: inline-block; padding: 10px 24px; border: 2px solid var(--global-text-color); border-radius: 6px; text-decoration: none; color: var(--global-text-color); font-weight: 600; font-size: 1rem; background: var(--global-bg-color);">Paper</a>
+  <span style="display: inline-block; padding: 10px 24px; border: 2px solid var(--global-text-color-light, #aaa); border-radius: 6px; color: var(--global-text-color-light, #aaa); font-weight: 600; font-size: 1rem; background: var(--global-bg-color); cursor: default;">Code (coming soon)</span>
+</div>
+
 ## Abstract
 
 Despite the significant advances in Deep Reinforcement Learning (RL) observed
