@@ -65,9 +65,6 @@ bibliography: 2018-12-22-distill.bib
 
 </div>
 
-document.addEventListener("DOMContentLoaded", updatePaperButtons);
-</script>
-
 ## Abstract
 
 Despite the significant advances in Deep Reinforcement Learning (RL) observed
