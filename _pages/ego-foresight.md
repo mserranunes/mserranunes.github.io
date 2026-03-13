@@ -43,27 +43,48 @@ bibliography: 2018-12-22-distill.bib
 <div class="row justify-content-center my-4">
 
   {% if page.github %}
-  <a class="btn btn-lg btn-primary mx-2"
+  <a class="btn btn-lg paper-btn mx-2"
      href="{{ page.github }}" target="_blank">
     <i class="fab fa-github"></i> Code
   </a>
   {% endif %}
 
   {% if page.arxiv %}
-  <a class="btn btn-lg btn-danger mx-2"
+  <a class="btn btn-lg paper-btn mx-2"
      href="{{ page.arxiv }}" target="_blank">
     <i class="ai ai-arxiv"></i> arXiv
   </a>
   {% endif %}
 
   {% if page.openreview %}
-  <a class="btn btn-lg btn-warning mx-2"
+  <a class="btn btn-lg paper-btn mx-2"
      href="{{ page.openreview }}" target="_blank">
-     OpenReview
+    <i class="fas fa-book-open"></i> OpenReview
   </a>
   {% endif %}
 
 </div>
+
+</div>
+
+<script>
+function updatePaperButtons() {
+  const theme = document.documentElement.getAttribute("data-theme");
+  const buttons = document.querySelectorAll(".paper-btn");
+
+  buttons.forEach(btn => {
+    btn.classList.remove("btn-light", "btn-dark");
+
+    if (theme === "dark") {
+      btn.classList.add("btn-light");
+    } else {
+      btn.classList.add("btn-dark");
+    }
+  });
+}
+
+document.addEventListener("DOMContentLoaded", updatePaperButtons);
+</script>
 
 ## Abstract
 
