@@ -35,7 +35,54 @@ authors:
       name: Técnico Lisboa
 
 bibliography: 2018-12-22-distill.bib
+
+_styles: >
+  .paper-code-links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 24px 0;
+  }
+  .paper-code-links a.btn-paper {
+    display: inline-block;
+    padding: 10px 24px;
+    border: 2px solid var(--global-text-color);
+    border-radius: 6px;
+    text-decoration: none !important;
+    color: var(--global-text-color) !important;
+    font-weight: 600;
+    font-size: 1rem;
+    background: var(--global-bg-color);
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .paper-code-links a.btn-paper:hover {
+    color: var(--global-hover-color) !important;
+    border-color: var(--global-hover-color);
+  }
+  .paper-code-links .btn-code-soon {
+    display: inline-block;
+    padding: 10px 24px;
+    border: 2px solid var(--global-text-color-light, #aaa);
+    border-radius: 6px;
+    color: var(--global-text-color-light, #aaa) !important;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: default;
+    opacity: 0.65;
+  }
 ---
+
+<div class="paper-code-links">
+  <a
+    href="https://openreview.net/pdf?id=6itufi98Q3"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="btn-paper"
+    aria-label="Read the Ego-Foresight paper on OpenReview"
+    >Paper</a
+  >
+  <span class="btn-code-soon">Code (coming soon)</span>
+</div>
 
 ## Abstract
 
