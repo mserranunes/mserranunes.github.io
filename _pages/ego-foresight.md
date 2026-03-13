@@ -19,6 +19,8 @@ chart:
   vega_lite: true
 tikzjax: true
 typograms: true
+github: https://github.com/mserranunes/ego-foresight
+arxiv: https://arxiv.org/pdf/2310.16828
 
 authors:
   - name: Manuel Serra Nunes
@@ -36,6 +38,22 @@ authors:
 
 bibliography: 2018-12-22-distill.bib
 ---
+
+{% if page.github or page.arxiv %}
+<div class="row justify-content-center my-3">
+  {% if page.github %}
+  <a class="btn btn-sm btn-outline-dark mx-1" href="{{ page.github }}">
+    <i class="fab fa-github"></i> Code
+  </a>
+  {% endif %}
+
+  {% if page.arxiv %}
+  <a class="btn btn-sm btn-outline-dark mx-1" href="{{ page.arxiv }}">
+    <i class="ai ai-arxiv"></i> arXiv
+  </a>
+  {% endif %}
+</div>
+{% endif %}
 
 ## Abstract
 
