@@ -65,24 +65,6 @@ bibliography: 2018-12-22-distill.bib
 
 </div>
 
-</div>
-
-<script>
-function updatePaperButtons() {
-  const theme = document.documentElement.getAttribute("data-theme");
-  const buttons = document.querySelectorAll(".paper-btn");
-
-  buttons.forEach(btn => {
-    btn.classList.remove("btn-light", "btn-dark");
-
-    if (theme === "dark") {
-      btn.classList.add("btn-light");
-    } else {
-      btn.classList.add("btn-dark");
-    }
-  });
-}
-
 document.addEventListener("DOMContentLoaded", updatePaperButtons);
 </script>
 
