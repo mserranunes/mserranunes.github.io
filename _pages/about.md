@@ -28,8 +28,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My name is Manuel and I'm a PhD student at the Computer and Robot Vision Laboratory (VisLab) at Técnico Lisboa. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In my research, I focus on `enabling robots to learn from the world as human infants do`, inspired by studies in developmental psychology. 
+I'm interested in studying cognition from an enactive, embodied perspective, centred on Reinforcement Learning, World Models, Intrinsic Motivation, Open-ended Learning and how these may lead to the emergence of altruistic behaviour in robots
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In my free time I find myself watching any sports I find on TV, cycling or running around the city, learning about politics and dreaming about meeting different cultures all over the world.
+
+Feel free to reach out to me if you’d like to discuss anything related to my research!
