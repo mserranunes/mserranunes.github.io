@@ -28,10 +28,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My name is Manuel and I'm a PhD student at the Computer and Robot Vision Laboratory (VisLab) at Técnico Lisboa. 
+My name is Manuel and I'm a PhD student at the Computer and Robot Vision Laboratory - [VisLab](https://vislab.isr.tecnico.ulisboa.pt/) - at Técnico Lisboa. 
 
 In my research, I focus on `enabling robots to learn from the world as human infants do`, inspired by studies in developmental psychology. 
-I'm interested in studying cognition from an enactive, embodied perspective, centred on Reinforcement Learning, World Models, Intrinsic Motivation, Open-ended Learning and how these may lead to the emergence of altruistic behaviour in robots
+
+I'm interested in studying cognition from an enactive, embodied perspective, centred on **Reinforcement Learning**, **World Models**, **Intrinsic Motivation**, **Open-ended Learning** and how these may lead to the emergence of **altruistic behaviour** in robots.
 
 In my free time I find myself watching any sports I find on TV, cycling or running around the city, learning about politics and dreaming about meeting different cultures all over the world.
 
