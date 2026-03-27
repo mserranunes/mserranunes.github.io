@@ -6,7 +6,7 @@ title: Ego-Foresight
 description: Self-supervised Learning of Agent-Aware Representations for Improved RL
 tags: distill formatting
 giscus_comments: false
-date: 2026-02-18
+date: 2026-02-18 ICLR
 featured: true
 mermaid:
   enabled: true
@@ -84,6 +84,13 @@ and performance of the underlying RL algorithm. To test our approach, we study
 the ability of EF to predict agent movement and disentangle agent information.
 Then, we integrate EF with model-free and model-based RL algorithms to solve
 simulated control tasks, showing improved sample-efficiency and performance.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/ef.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
