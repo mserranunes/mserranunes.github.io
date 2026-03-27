@@ -6,7 +6,7 @@ title: Ego-Foresight
 description: Self-supervised Learning of Agent-Aware Representations for Improved RL
 tags: distill formatting
 giscus_comments: false
-date: 2026-02-18 ICLR
+date: 2026-02-18
 featured: true
 mermaid:
   enabled: true
@@ -27,6 +27,8 @@ authors:
   - name: Manuel Serra Nunes
     affiliations:
       name: Técnico Lisboa
+    conference:
+       name: ICLR 
   - name: Atabak Dehban
     affiliations:
       name: Técnico Lisboa
