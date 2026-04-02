@@ -20,7 +20,7 @@ chart:
 tikzjax: true
 typograms: true
 github: https://github.com/mserranunes/ego-foresight
-arxiv: https://arxiv.org/pdf/2310.16828
+arxiv: https://arxiv.org/pdf/2407.01570
 openreview: https://openreview.net/pdf?id=6itufi98Q3
 
 authors:
