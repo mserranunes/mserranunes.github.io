@@ -109,9 +109,19 @@ We hipothesize that a forward model with a bottleneck in the feature representat
     </div>
 </div>
 
-Our architecture uses a recurrent model to incentivize the concentration of agent features in \boldsymbol{h}_a. 
+Our architecture uses a recurrent model to incentivize the concentration of agent features in $\boldsymbol{h}_a$. 
 
 We optimize the reconstruction of the future frames as an additional loss term and train in a self-supervised manner using sequences from a replay buffer.
+
+Our method can be used as an extension to existing off-policy RL algorithms.
+
+In this work we apply EF to DrQ-v2 and TD-MPC2.
+
+## Visualizing the learned features
+
+As training progresses, $\boldsymbol{h}_a$ specializes in extracting agent features while $\boldsymbol{h}_s$ keeps extracting information of thw whole scene.
+
+Static information can be overfitted by the decoder and thus is not extracted by either feature vector.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -119,13 +129,15 @@ We optimize the reconstruction of the future frames as an additional loss term a
     </div>
 </div>
 
+**Once the agent starts using the tool, this is integrated into the agent representation.**
+
+## Results
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/bars.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+
 
 
