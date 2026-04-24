@@ -87,21 +87,24 @@ the ability of EF to predict agent movement and disentangle agent information.
 Then, we integrate EF with model-free and model-based RL algorithms to solve
 simulated control tasks, showing improved sample-efficiency and performance.
 
----
+<div class="hr"></div>
 
-Motivation
+## Motivation
 
-A mitigation strategy to mitigate RL's sample-inneficiency is to take advantage of known structural biases in the environment.
+In robotic tasks, we know that there exists an embodiment, motivating the learning of feature representations that disentangle agent and environment.
 
-In robotic tasks, we know that there exists an embodiment, motivating the learning of feature representations that disentangle agent and environment. 
+Previous work has demonstrated the effectiveness of this strategy in improving efficiency and performance but has relied on the availability of supervisory masks and thus cannot adapt to changes in the body-schema, for example when the robot needs to use tools.
 
-Previous work has demonstrated the effectiveness of this strategy in improving efficiency and performance in robotic control and manipulation tasks but has relied on the availability of supervisory masks and thus cannot adapt to changes in the body-schema, for example when the robot needs to use tools.
-
-In natural organisms, neuroscientific studies have shown that the receptive fields of neurons responding to hand stimuli expand when using tools, indicating that the representation of self is adaptable.
+In natural organisms, studies have shown that the receptive fields of neurons responding to hand stimuli expand when using tools, indicating that the representation of self is adaptable.
 
 This leads us to ask: can we disentangle agent & environment without supervision & allow body adaptability while retaining improvements in sample-efficiency?
 
 ---
+
+## Approach
+
+We start from the premise that regions completely contingent on the agent’s actions can be viewed as part of the agent.
+A forward model with a bottleneck in the feature representation should learn to extract agent features, which can be accurately predicted.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
