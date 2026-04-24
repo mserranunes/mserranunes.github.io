@@ -87,8 +87,6 @@ the ability of EF to predict agent movement and disentangle agent information.
 Then, we integrate EF with model-free and model-based RL algorithms to solve
 simulated control tasks, showing improved sample-efficiency and performance.
 
-<div class="hr"></div>
-
 ## Motivation
 
 In robotic tasks, we know that there exists an embodiment, motivating the learning of feature representations that disentangle agent and environment.
@@ -97,20 +95,23 @@ Previous work has demonstrated the effectiveness of this strategy in improving e
 
 In natural organisms, studies have shown that the receptive fields of neurons responding to hand stimuli expand when using tools, indicating that the representation of self is adaptable.
 
-This leads us to ask: can we disentangle agent & environment without supervision & allow body adaptability while retaining improvements in sample-efficiency?
-
----
+**This leads us to ask**: can we disentangle agent & environment without supervision & allow body adaptability while retaining improvements in sample-efficiency?
 
 ## Approach
 
 We start from the premise that regions completely contingent on the agent’s actions can be viewed as part of the agent.
-A forward model with a bottleneck in the feature representation should learn to extract agent features, which can be accurately predicted.
+
+We hipothesize that a forward model with a bottleneck in the feature representation should learn to extract agent features, which can be accurately predicted.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/ef.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+In our architecture we use a recurrent model to incentivize the concentration of agent features in 𝒉𝒂. 
+
+We optimize the reconstruction of the future frames as an additional loss term and train in a self-supervised manner using sequences from a replay buffer.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
