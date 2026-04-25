@@ -20,7 +20,7 @@ chart:
 tikzjax: true
 typograms: true
 github: https://github.com/mserranunes/ego-foresight
-arxiv: https://arxiv.org/pdf/2407.01570
+arxiv: https://iclr.cc/virtual/2026/poster/10011356
 openreview: https://openreview.net/pdf?id=6itufi98Q3
 
 authors:
@@ -54,7 +54,7 @@ bibliography: 2018-12-22-distill.bib
   {% if page.arxiv %}
   <a class="btn btn-lg paper-btn mx-2"
      href="{{ page.arxiv }}" target="_blank">
-    <i class="ai ai-arxiv"></i> arXiv
+    <i class="ai ai-arxiv"></i> Paper
   </a>
   {% endif %}
 
